@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions
       - name: Setup AWS CLI
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions
         with:
           aws-access-key-id: AKIAWABSAOR7PNNNDAW4
           aws-secret-access-key: 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
