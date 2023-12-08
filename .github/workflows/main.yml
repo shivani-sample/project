@@ -11,8 +11,8 @@ jobs:
       - name: Setup AWS CLI
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: AKIAWABSAOR7PNNNDAW4
+          aws-secret-access-key: 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
           aws-region: ap-south-1
       - name: Sync files to S3 bucket
         run: |
