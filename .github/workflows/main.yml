@@ -11,9 +11,9 @@ jobs:
       - name: Setup AWS CLI
         uses: aws-actions
         with:
-          aws-access-key-id: AKIAWABSAOR7PNNNDAW4
-          aws-secret-access-key: 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
+          aws-access-key-id: 
+          aws-secret-access-key: 
           aws-region: ap-south-1
       - name: Sync files to S3 bucket
         run: |
-          aws s3 sync build s3://srilubuk --delete
+          aws s3 sync build s3:// --delete
